@@ -21,10 +21,7 @@ class Dog
     @@all 
   end
   
-  def self.print_all 
-    @@all.each do |j|
-      puts "#{j}"
-    end
+ 
  
   end
   def self.clear_all
