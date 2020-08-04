@@ -1,14 +1,14 @@
 # Add your code here
 class Dog 
   @@all = []
-  @@name = []
+
   
   attr_accessor :name
   
   def initialize(name)
     @name = name
-    @@name.push(name)
-    @@all.push(self)
+   
+    @@all.push(name)
   end
   
   def self.all 
@@ -16,7 +16,9 @@ class Dog
   end
   
   def self.print_all 
-    @@name.each { |i| puts "#{i}" }
+    @@all.each do |i|
+      puts "#{i}"
+    end
  
   end
   
