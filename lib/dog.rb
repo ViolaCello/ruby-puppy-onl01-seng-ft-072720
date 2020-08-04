@@ -18,13 +18,13 @@ class Dog
     @@all 
   end
   
-  def print_all 
+  def self.print_all 
     @@all.each do |j|
       puts "#{j}"
     end
  
   end
-  def clear_all
+  def self.clear_all
   @@all.clear
 end
 
