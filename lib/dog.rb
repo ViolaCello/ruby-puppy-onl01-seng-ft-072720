@@ -8,11 +8,11 @@ class Dog
   end
   
   def self.all 
-    @all 
+    @@all 
   end
   
   def self.print_all 
-    @all.each do |i|
+    @@all.each do |i|
       puts "#{i}"
     end
   end
