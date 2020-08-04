@@ -4,8 +4,8 @@ class Dog
   
   attr_accessor :name
   
-  def save(name)
-    @@all.push(name)
+  def save
+    @@all.push(self)
   end
   
   def initialize(name)
